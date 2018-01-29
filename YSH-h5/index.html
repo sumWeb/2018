@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="Sumt">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/ani.css">
+</head>
+<body>
+
+<div class="music">
+    <audio id="music" style="display:none" loop='loop'></audio>
+</div>
+
+<div class="pagesize">
+
+    <div class="logo"></div>
+    <div class="loadpage">
+        <div class="loading">
+            <div class="circle "></div>
+            <div class="hour"></div>
+            <div class="minute"></div>
+        </div>
+        <div class="loading_text">
+            <p class="loading-num"></p>
+            指针不停地旋转，是最不起眼的坚持<br>
+            时间不断地累积，能达成最不凡的成就<br>
+            那26年的坚持与积累<br>
+            可以呈现怎样精彩的绽放？
+        </div>
+    </div>
+    <div class="section" id="shupin">
+        <div class="shupin"></div>
+        <div class="shupin_text">
+            请将手机立起来<br>
+            进入这场时间之旅
+        </div>
+    </div>
+    <div class="section" id="begin">
+        <div class="begin"></div>
+        <div class="begin_text">
+            保持现在的姿势<br>
+            千万别动！
+        </div>
+    </div>
+    <div class="section" id="ani">
+        <div class="timebar">
+            <div class="time_text">你已耐心坚持了</div>
+            <div class="count">00:00:00</div>
+        </div>
+        <div class="ani">
+            <div class="clock">
+                <div class="NO1" id="NO1"></div>
+                <div class="NO1NEI"></div>
+                <div class="NO1text">
+                    <div class="col_text">1<br>9<br>9<br>7年</div>
+                    <div class="col_text">雅居乐物业管理服务有限公司成立</div>
+                    <div class="col_text">引入港式物业管理模式</div>
+                </div>
+                <div class="NO2"></div>
+                <div class="NO2NEI"></div>
+                <div class="NO2text">
+                    <div class="col_text">1<br>9<br>9<br>7年</div>
+                    <div class="col_text">接管广东中山多个大盘物管项目</div>
+                    <div class="col_text">成为高端大盘管理领域的领跑者</div>
+                </div>
+                <div class="NO3"></div>
+                <div class="NO3NEI"></div>
+                <div class="NO3text">
+                    <div class="col_text">1<br>9<br>9<br>9年</div>
+                    <div class="col_text">全面通过I<br>S<br>O<br>9<br>0<br>0<br>1<br>质量管理体系认证</div>
+                </div>
+                <div class="NO4"></div>
+                <div class="NO4NEI"></div>
+                <div class="NO4T"></div>
+                <div class="NO4text">
+                    <div class="col_text">2<br>0<br>0<br>1年</div>
+                    <div class="col_text">成为国家首批一级资质认证的</div>
+                    <div class="col_text">物业管理企业之一</div>
+                </div>
+                <div class="NO5"></div>
+                <div class="NO5NEI"></div>
+                <div class="NO5T"></div>
+                <div class="NO5V"></div>
+                <div class="NO5text">
+                    <div class="row_text">2005年</div>
+                    <div class="row_text">雅居乐地产控股有限公司香港联交所</div>
+                    <div class="row_text">主板挂牌上市</div>
+                </div>
+                <div class="NO6"></div>
+                <div class="NO6NEI"></div>
+                <div class="NO6text">
+                    <div class="row_text">2006年</div>
+                    <div class="row_text">雅居乐将物业管理服务拓展</div>
+                    <div class="row_text">至西安、成都及南京开启</div>
+                    <div class="row_text">全国战略部署</div>
+                </div>
+                <div class="NO7"></div>
+                <div class="NO7NEI"></div>
+                <div class="NO7text">
+                    <div class="row_text">2008年</div>
+                    <div class="row_text">开始为海南清水湾项目提供物业管理服务</div>
+                    <div class="row_text">成为旅游地产物业管理专家</div>
+                </div>
+                <div class="NO8"></div>
+                <div class="NO8NEI"></div>
+                <div class="NO8text">
+                    <div class="row_text">2012年</div>
+                    <div class="row_text">通过ISO9001-ISO14001-OHSAS18000</div>
+                    <div class="row_text">三个管理体系于一体整合认证</div>
+                </div>
+                <div class="NO9"></div>
+                <div class="NO9NEI"></div>
+                <div class="NO9text">
+                    <div class="row_text">2016年</div>
+                    <div class="row_text">当选物业管理（品质住宅）</div>
+                    <div class="row_text">企业联盟轮值主席</div>
+                </div>
+                <div class="NO10"></div>
+                <div class="NO10text">
+                    <div class="row_text">2017年</div>
+                    <div class="row_text">定位为品质提升年，搭建资讯化品质管控平台</div>
+                </div>
+                <div class="NO11"></div>
+                <div class="NO11NEI"></div>
+                <div class="NO11T"></div>
+                <div class="NO11V"></div>
+                <div class="NO11text" id="aniDiv">
+                    <div class="row_text">2017年</div>
+                    <div class="row_text">中国物业管理企业综合实力第12名</div>
+                    <div class="row_text">并收购绿地物业100%股权，建立双品牌驱动战略</div>
+                </div>
+            </div>
+            <div class="duihua">
+                <div class="duihua_text">截止目前，雅生活集团<br>覆盖全国逾<span class="red">65个</span>城市和地区</div>
+                <div class="duihua1"></div>
+                <div class="duihua2"></div>
+                <div class="duihua3"></div>
+                <div class="duihua4"></div>
+            </div>
+            <div class="knock">
+                <div class="hammer"></div>
+                <div class="btn_ham"></div>
+            </div>
+            <div class="color_clock"></div>
+            <div class="result">
+                <div class="date">2018.02.08</div>
+                <div class="text1">雅生活集团于港交所敲钟上市！<br>
+                    唯有坚持初心，方得钟鸣
+                </div>
+                <div class="hk">股票代码：HK3383</div>
+                <div class="text2">站在全新的起点<br>
+                    未来雅生活集团将成为国内领先<br>
+                    国际一流的生活服务平台！<br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="endpage">
+        <div class="date">2018.02.08</div>
+        <div class="text1">雅生活集团于港交所敲钟上市！</div>
+        <div class="hk">股票代码：HK3383！</div>
+        <div class="only"></div>
+        <div class="insist">你坚持了</div>
+        <div class="text2">人生没有随随便便的成功<br>
+            只有一分一秒的坚持与积累<br>
+            一如雅生活26年专注匠心服务<br>
+            构建雅致生活</div>
+        <div class="endtime">00:00:00</div>
+        <div class="btn_again"></div>
+        <div class="btn_pk"></div>
+    </div>
+</div>
+
+
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/jquery.timer.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="js/orienter.min.js"></script>
+<script src="js/index.min.js"></script>
+</body>
+</html>
